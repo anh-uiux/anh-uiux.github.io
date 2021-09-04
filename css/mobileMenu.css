@@ -1,0 +1,1660 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700,600');
+
+@font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-ExtraBold";
+                          src: url('../fonts/OpenSans-ExtraBold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "simple-line-icons";
+                          src: url('../fonts/Simple-Line-Icons.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "FontAwesome";
+                          src: url('../fonts/FontAwesome.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "material";
+                          src: url('../fonts/material.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Zapfino";
+                          src: url('../fonts/Zapfino.ttf') format("truetype");
+                        }
+                        
+.mobilemenu {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 787px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.mobilemenu .whitebg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 5754px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4097px;
+  height              : 409px;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .rectangle {
+  background-color    : rgba(49, 51, 56, 1.0);
+  top                 : 0px;
+  height              : 409px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 386px;
+  max-height          : 450px;
+  width               : 358px;
+  max-width           : 1063px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 30px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group .group10 .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 265px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.28px;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group10 .screensmartphonesimplelineicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "simple-line-icons", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 161px;
+  height              : 30px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group .group12 .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 243px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.28px;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group12 .uf133 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.mobilemenu .contact .group .group11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 30px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group .group11 .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.28px;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group11 .userfemalesimplelineicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "simple-line-icons", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 211px;
+  height              : 30px;
+  width               : 356px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .contact .group .group13 .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.28px;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .group13 .mailoutlinematerial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "material", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.mobilemenu .contact .group .anhnguyen1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : auto;
+  width               : 319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-6deg); /* IE 9 */
+  -webkit-transform   : rotate(-6deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-6deg);
+  font-family         : "Zapfino", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 101.0px;
+}
+.mobilemenu .contact .group .contact1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(-360deg); /* IE 9 */
+  -webkit-transform   : rotate(-360deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-360deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 41.0px;
+}
+.mobilemenu .styleguide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3469px;
+  height              : 602px;
+  width               : 336px;
+  max-width           : 1319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .styleguidecompon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 41.0px;
+}
+.mobilemenu .styleguide .hiqappcolors {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : 163px;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .hiqappcolors .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 163px;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .hiqappcolors .hiqappcolors1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 475px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .snackandtoastbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 480px;
+  height              : 122px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .snackandtoastbar .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 122px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .snackandtoastbar .snackandtoastbar1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 158px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .textfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : 224px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .textfield .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 224px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .styleguide .textfield .textfield1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 318px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .game {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3225px;
+  height              : 214px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2335px;
+  height              : 870px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup .car {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 623px;
+  height              : 247px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 203px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup .group .rectangle {
+  background-color    : rgba(49, 51, 56, 1.0);
+  top                 : 0px;
+  height              : 203px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup .group .u201cinteractionisthe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.23px;
+  line-height         : 22.0px;
+}
+.mobilemenu .interactiongroup .videointeraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : 458px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  border-radius       : 25px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .interactiongroup .videointeraction .bginteraction {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 458px;
+  width               : 220px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.mobilemenu .webdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1803px;
+  height              : 232px;
+  width               : 336px;
+  max-width           : 1319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .webdesign .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 211px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.mobilemenu .webdesign .porfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 251px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(49, 51, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 41.0px;
+}
+.mobilemenu .skill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1473px;
+  height              : 300px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .rectangle {
+  background-color    : rgba(49, 51, 56, 1.0);
+  top                 : 0px;
+  height              : 300px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 260px;
+  width               : 335px;
+  max-width           : 1319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .appdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .appdesign .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.mobilemenu .skill .myskills .appdesign .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.42%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .appdesign .appdesign1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 29.55%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.58%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .appdesign .a95 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.57%;
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 13.73%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .webdesign1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.15%;
+  height              : 15.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .webdesign1 .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.mobilemenu .skill .myskills .webdesign1 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 93.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .webdesign1 .webdesign11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 32.54%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.58%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .webdesign1 .a90 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.57%;
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 13.73%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .interactiondesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42.31%;
+  height              : 15.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .interactiondesign .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.mobilemenu .skill .myskills .interactiondesign .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 91.34%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .interactiondesign .interactiondesign1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 48.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.58%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .interactiondesign .a85 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.57%;
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 13.73%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .motiongraphic {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.15%;
+  height              : 15.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .motiongraphic .rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.mobilemenu .skill .myskills .motiongraphic .rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 88.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .motiongraphic .motiongraphic1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 38.21%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.58%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .motiongraphic .a75 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.57%;
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 13.73%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .iconanimation {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 15.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .iconanimation .rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.mobilemenu .skill .myskills .iconanimation .rectangle9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 88.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .skill .myskills .iconanimation .iconanimation1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 46.57%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.58%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .skill .myskills .iconanimation .a751 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.57%;
+  top                 : calc(50.00% - 11px);
+  height              : 22px;
+  width               : 13.73%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 22.0px;
+}
+.mobilemenu .aboutme {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 721px;
+  height              : 724px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 238px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .content .enrichmyknowledges {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.21px;
+  line-height         : 30.0px;
+}
+.mobilemenu .aboutme .content .alwaysstriveforbe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(49, 51, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.34px;
+  line-height         : 33.0px;
+}
+.mobilemenu .aboutme .content .aboutme1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(49, 51, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.43px;
+  line-height         : 41.0px;
+}
+.mobilemenu .aboutme .iconsocial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 599px;
+  height              : 55px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .facebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .facebook .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .facebook .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 25px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance .behance1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 20px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance .behance1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance .behance1 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .behance .behance1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 3px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .dribbblr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 186px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .dribbblr .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .dribbblr .dribbblelogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .dribbblr .dribbblelogo .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .pinterest {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .pinterest .ovalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .pinterest .pinterest1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 30px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .iconsocial .pinterest .pinterest1 .xmlid799 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .downloadbtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 674px;
+  height              : 50px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .downloadbtn .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .aboutme .downloadbtn .downloadcv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.28px;
+  line-height         : 30.0px;
+}
+.mobilemenu .aboutme .image2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 247px;
+  height              : 332px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.mobilemenu .firstimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 702px;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .firstimage .firstimage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 702px;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .firstimage .firstimage1 .imagebg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 702px;
+  box-sizing          : border-box;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.mobilemenu .firstimage .firstimage1 .blur {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 1px;
+  height              : 700px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.mobilemenu .firstimage .uiuxdesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 207px;
+  height              : auto;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.29px;
+  line-height         : 27.0px;
+}
+.mobilemenu .firstimage .anhnguyen1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 134px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "OpenSans-ExtraBold", Helvetica, Arial, serif;
+  font-size           : 45.0px;
+  color               : rgba(255, 255, 255, 0.0);
+  text-align          : left;
+  letter-spacing      : 0.58px;
+  line-height         : 61.0px;
+}
+.mobilemenu .menubtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 12px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .menubtn .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .menubtn .rectanglecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 5px;
+  height              : 2px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .menubtn .rectanglecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.mobilemenu .anhnguyen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.26px;
+  line-height         : 27.0px;
+}
+.mobilemenu .hiq {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2055px;
+  height              : 250px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
